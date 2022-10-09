@@ -16,4 +16,3 @@ public class VAT_Amount {
         System.out.println("VAT AMOUNT :" + VATamount);
         System.out.println("FINAL AMOUNT :" + AmountwithVAT);
     }
-}
