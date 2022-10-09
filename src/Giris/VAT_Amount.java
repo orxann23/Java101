@@ -1,0 +1,19 @@
+package Giris;
+import java.util.Scanner;
+
+public class VAT_Amount {
+    public static void main(String[] args){
+        double amount, VATrate = 0.18, VATamount, AmountwithVAT;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please Enter An Amount :");
+        amount = scan.nextDouble();
+
+        VATamount = VATrate*amount;
+        AmountwithVAT = amount+VATamount;
+
+        System.out.println("NET AMOUNT :" + amount);
+        System.out.println("VAT RATE :" + VATrate);
+        System.out.println("VAT AMOUNT :" + VATamount);
+        System.out.println("FINAL AMOUNT :" + AmountwithVAT);
+    }
+}
