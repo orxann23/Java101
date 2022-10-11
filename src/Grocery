@@ -1,0 +1,35 @@
+package Giris;
+
+import java.util.Scanner;
+
+public class Tests {
+    public static void main (String[] args) {
+
+        
+        double pear, apple, tomato, banana, eggplant, total;
+        
+        Scanner inp = new Scanner(System.in);
+        System.out.print("Pear KG :");
+        pear = inp.nextDouble();
+        System.out.print("Apple KG :");
+        apple = inp.nextDouble();
+        System.out.print("Tomato KG :");
+        tomato = inp.nextDouble();
+        System.out.print("Banana KG :");
+        banana = inp.nextDouble();
+        System.out.print("Eggplant KG :");
+        eggplant = inp.nextDouble();
+
+        total = (2.14*pear)+(3.67*apple)+(1.11*tomato)+(0.95*banana)+(5*eggplant);
+        System.out.print("Total Price :" + total +  "EUR");
+
+
+
+    }
+
+}
+
+
+
+
+
