@@ -1,0 +1,25 @@
+package Giris;
+import java.util.Scanner;
+
+public class Tests {
+    public static void main (String[] args) {
+    
+        double kg, heightM, bodyMassIndex;
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.print("Please Enter Your Kg :");
+        kg = inp.nextDouble();
+        System.out.print("Please Enter Your Height :");
+        heightM = inp.nextDouble();
+
+        bodyMassIndex = kg / (heightM*heightM);
+        System.out.println("Your Body Mass Index :" + bodyMassIndex);
+
+        
+    }
+
+}
+
+    
+    
