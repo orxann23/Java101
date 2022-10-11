@@ -1,0 +1,23 @@
+package Giris;
+import java.util.Scanner;
+
+public class Tests {
+    public static void main (String[] args) {
+    
+        int r,  angle;
+        double pi = 3.14, area;
+
+        Scanner inp = new Scanner(System.in);
+        
+        System.out.print("Enter Radius Value :");
+        r = inp.nextInt();
+        System.out.print("Enter Angle Value :");
+        angle = inp.nextInt();
+
+        area = (pi*(r*r)*angle)/360;
+        System.out.println("Area of the Segment :" + area);
+        
+
+    }
+
+}
